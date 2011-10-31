@@ -576,7 +576,7 @@ public class GuiIngame extends Gui
     public void addChatMessage(String s)
     {
         
-        if(!lavaBukkit.hideChat) {
+        if(!LavaBukkit.hideChat) {
         
             int i;
             for(; mc.fontRenderer.getStringWidth(s) > 320; s = s.substring(i))
