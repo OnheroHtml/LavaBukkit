@@ -23,7 +23,7 @@ public class LavaBukkit {
 		if(checkKey(Keyboard.KEY_J)) jumpHack = !jumpHack;
 		if(jumpHack) activatedHacks.add("Jump Heck");
 		
-		if(checkKey(Keyboard.KEY_P)) ideChat= !hideChat;
+		if(checkKey(Keyboard.KEY_P)) hideChat= !hideChat;
 		if(hideChat) activatedHacks.add("Hide Chat")
 		
 	}
