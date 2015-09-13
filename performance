@@ -1,0 +1,4 @@
+var Perf = lavaBukkit.Perf;
+if(!lavaBukkit.Perf) {
+  Perf = TRUE;
+}
